@@ -1,1 +1,14 @@
 1. Welcome to Git World.
+
+To Overwrite changes of local with current remote file.
+
+git fetch
+git checkout origin/master filename 
+
+(Note: we need to give exact path of filename.
+ex: I have a file called overwrite.txt under src/media/js/overwrite.txt)
+
+In that case
+
+git fetch
+git checkout origin/master src/media/js/overwrite.txt
