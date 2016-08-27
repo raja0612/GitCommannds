@@ -23,4 +23,4 @@ At this point, if you add ant new files which are not present in remote , then s
 
 so if you want to delete newly added files in your local.run below command.
 
-git clean -f (Note: It will delete all your local newly added files.)
+git clean -f or git claen --ffdx(removes all files and directories of your local) (Note: It will delete all your local newly added files.)
