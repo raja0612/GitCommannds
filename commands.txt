@@ -12,3 +12,15 @@ In that case
 
 git fetch
 git checkout origin/master src/media/js/overwrite.txt
+
+
+To Overwrite all files with remote.
+
+git fetch
+git reset --hard origin/master
+
+At this point, if you add ant new files which are not present in remote , then still it shows when you run the git status.
+
+so if you want to delete newly added files in your local.run below command.
+
+git clean -f (Note: It will delete all your local newly added files.)
